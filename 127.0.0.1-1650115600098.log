@@ -1,0 +1,147 @@
+main.js:10 <button>​</button>​
+main.js:10 <button>​</button>​
+main.js:10 <button>​</button>​
+main.js:10 <button>​</button>​
+document.getElementsByTagName("button")[]
+VM221:1 Uncaught SyntaxError: Unexpected token ']'
+var a =64646;
+undefined
+var b = 654;
+undefined
+function (){
+}
+VM385:1 Uncaught SyntaxError: Function statements require a function name
+function sum(){
+    return a+b;    
+}
+undefined
+sum();
+65300
+function(){
+VM501:1 Uncaught SyntaxError: Function statements require a function name
+function a(num1,num2){
+    var c = 10; 
+    function b(){
+        return  num1 + num2+c;
+    }
+}
+undefined
+function a(num1,num2){
+    var c = 10; 
+    function b(){
+        return  num1 + num2+c;
+    }
+    return b;
+}
+undefined
+a()';
+VM734:1 Uncaught SyntaxError: Invalid or unexpected token
+a();
+ƒ b(){
+        return  num1 + num2+c;
+    }
+var total = a(4,6);
+undefined
+total();
+20
+typeof total;
+'function'
+total;
+ƒ b(){
+        return  num1 + num2+c;
+    }
+var print = function (){
+    return 8+9;
+}
+undefined
+print();
+17
+typeof print;
+'function'
+print =96;
+96
+typeof print;
+'number'
+console.dir(total);
+VM1249:1 ƒ b()arguments: nullcaller: nulllength: 0name: "b"prototype: {constructor: ƒ}constructor: ƒ b()[[Prototype]]: Object[[FunctionLocation]]: VM720:3[[Prototype]]: ƒ ()[[Scopes]]: Scopes[2]0: Closure (a) {num2: 6, num1: 4, c: 10}1: Global {window: Window, self: Window, document: document, name: '', location: Location, …}
+undefined
+function a(num1,num2){
+    var c = 10; 
+    function b(){
+        c=5;
+        return  num1 + num2+c;
+    }
+    return b;
+}
+undefined
+function a(num1,num2){
+    var t=42;
+    var c = 10; 
+    function b(){
+        c=5;
+        return  num1 + num2+c;
+    }
+    return b;
+}
+undefined
+total();
+20
+var total = a(4,96);
+undefined
+total();
+105
+console.dir(total);
+VM1473:1 ƒ b()arguments: nullcaller: nulllength: 0name: "b"prototype: {constructor: ƒ}[[FunctionLocation]]: VM1327:4[[Prototype]]: ƒ ()[[Scopes]]: Scopes[2]0: Closure (a) {num2: 96, num1: 4, c: 5}1: Global {window: Window, self: Window, document: document, name: '', location: Location, …}
+undefined
+function a(num1,num2){
+    var t=42;
+    var c = 10; 
+    function b(){
+        c=5;
+        return  num1 + num2+c;
+    }
+    return b;
+}
+undefined
+function a(num1,num2){
+    var t=42;
+    var c = 10; 
+    function b(){
+        c=5;
+
+        var d=num1+num2+c
+        // var d=
+        // return  num1 + num2+c;
+        return d;
+    }
+    return b;
+}
+undefined
+function a(num1,num2){
+    var t=42;
+    var c = 10; 
+    function b(){
+        c=5;
+
+        =num1+num2+c
+        // var d=
+        // return  num1 + num2+c;
+        return d;
+    }
+    return b;
+}
+VM1663:7 Uncaught SyntaxError: Unexpected token '='
+function a(num1,num2){
+    var t=42;
+    var c = 10; 
+    var d;
+    function b(){
+        c=5;
+
+        d+=num1+num2+c;
+        // var d=
+        // return  num1 + num2+c;
+    }
+    return d;
+}
+undefined
